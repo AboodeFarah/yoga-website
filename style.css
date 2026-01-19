@@ -132,12 +132,12 @@ header{
     justify-content: end;
     align-items: center;
     margin-inline: auto;
-    color: white   ;
+    
     margin-bottom: 20px;
     max-width: 60%;
 }
 .content h1{
-    
+    color: white !important;
     font-size: 3.125rem;
     text-align: center;
     font-weight: 700;
@@ -147,6 +147,7 @@ header{
     font-weight: 700    ;
     text-align: center;
     margin-bottom: 4rem;
+    color: white;
 }
 .info-boxs{
     display: grid;
@@ -338,6 +339,7 @@ footer p{
         padding: 40px;
 
     }
+    
     .mobile-menu{
         background-color: #2b2b2b;
         color: white;
